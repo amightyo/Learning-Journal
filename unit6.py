@@ -18,7 +18,13 @@ print(skating_jumps_list)
 # Sort the list.
 skating_jumps_list.sort()
 print(skating_jumps_list)
+
 # Add new words to the list (three or more) using three different kinds of Python operation.
+skating_jumps_list.append('double-salchow')
+skating_jumps_list.extend(['double-flip'])
+skating_jumps_list[len(skating_jumps_list) +
+                   1:] = ['double-loop', 'double-lutz', 'double-toe-loop']
+print(skating_jumps_list)
 
 # Turn the list of words back into a single string using join.
 
