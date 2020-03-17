@@ -27,5 +27,7 @@ skating_jumps_list[len(skating_jumps_list) +
 print(skating_jumps_list)
 
 # Turn the list of words back into a single string using join.
+the_skating_jumps = ' '.join(skating_jumps_list)
 
 # Print the string.
+print(the_skating_jumps)
