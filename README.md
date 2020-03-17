@@ -1,5 +1,5 @@
 # Learning-Journal
-Learning Journal is where we can all collaborate
+Learning Journal is where we can all collaborate.
 
 ### Sorting
 There are different types of sorting algorithms, such as selection sort, bubble sort, insertion sort, merge sort, and so on with different performance complexity. This video does a great job of visualizing the complexity.
