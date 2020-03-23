@@ -9,7 +9,7 @@
 # Downey, A. (2015). Think Python: How to think like a computer scientist. Needham, Massachusetts: Green Tree Press.
 
 
-def invert_dict(d):
+def invert_dict_given(d):
     inverse = dict()
     for key in d:
         val = d[key]
@@ -21,6 +21,28 @@ def invert_dict(d):
 
 # Modify this function so that it can invert your dictionary. In particular, the function will need to turn each of the list items into separate keys in the inverted dictionary.
 
-# Run your modified invert_dict function on your dictionary. Print the original dictionary and the inverted one.
 
+def invert_dict(d):
+    inverse = dict()
+    for key in d:
+        val = d[key]
+        for item in val:
+            inverse[item] = key
+    return inverse
+
+
+# Run your modified invert_dict function on your dictionary. Print the original dictionary and the inverted one.
+d = {"Primary Contact": ["Jamie Malloy", "Hendrik Kurk", "Betty Wilson"], "Company": [
+    "Accenture", "Salesforce", "BCG"], "Account Owner": ["Alex Shevelenko", "Tom Griffin", "Nikita Koroteav"]}
+
+print("***Original Dictionary***")
+print("-------------------------")
+for key in d:
+    print(key, d[key], sep=" ==> ")
+inverse = invert_dict(d)
+print("\n***Inverted Dictionary***")
+print("-------------------------")
+for key in inverse:
+    print(key, inverse[key], sep=" ==> ")
 # Include your Python program and the output in your Learning Journal submission.
+print(inverse)
