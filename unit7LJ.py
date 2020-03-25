@@ -25,8 +25,7 @@ def invert_dict_given(d):
 def invert_dict(d):
     inverse = dict()
     for key in d:
-        val = d[key]
-        for item in val:
+        for item in d[key]:
             inverse[item] = key
     return inverse
 
@@ -34,6 +33,11 @@ def invert_dict(d):
 # Run your modified invert_dict function on your dictionary. Print the original dictionary and the inverted one.
 d = {"Primary Contact": ["Jamie Malloy", "Hendrik Kurk", "Betty Wilson"], "Company": [
     "Accenture", "Salesforce", "BCG"], "Account Owner": ["Alex Shevelenko", "Tom Griffin", "Nikita Koroteav"]}
+
+figure_skates = {'Jackson': ('Mystique', 'Elle', 'Debut', 'Elite'), 'Riedell': (
+    'Diamond', 'Stride', 'Motion', 'Flair'), 'Edea': ('Chorus', 'Concerto', 'Ice Fly', 'Piano')}
+
+d = figure_skates
 
 print("***Original Dictionary***")
 print("-------------------------")
