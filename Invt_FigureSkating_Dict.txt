@@ -1,0 +1,12 @@
+ Mystique:Jackson
+ Elle:Jackson
+ Debut:Jackson
+ Elite:Jackson
+ Diamond:Riedell
+ Stride:Riedell
+ Motion:Riedell
+ Flair:Riedell
+ Chorus:Edea
+ Concerto:Edea
+ Ice Fly:Edea
+ Piano:Edea
