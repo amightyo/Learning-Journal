@@ -37,7 +37,13 @@ d = {"Primary Contact": ["Jamie Malloy", "Hendrik Kurk", "Betty Wilson"], "Compa
 figure_skates = {'Jackson': ('Mystique', 'Elle', 'Debut', 'Elite'), 'Riedell': (
     'Diamond', 'Stride', 'Motion', 'Flair'), 'Edea': ('Chorus', 'Concerto', 'Ice Fly', 'Piano')}
 
-d = figure_skates
+student = {'name ': ['rawaa', 'ramaa'], 'age': [
+    '20', '19'], 'slary': ['100', '200']}
+
+collegeClasses = {'10:00-12:00': ['Math A', 'Math B'], '13:00-15:00': ['Python',
+                                                                       'Java Script'], '16:00-17:00': ['Writing'], '15:30-17:30': ['Environmental Science']}
+
+d = collegeClasses
 
 print("***Original Dictionary***")
 print("-------------------------")
